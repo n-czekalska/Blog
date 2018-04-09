@@ -1,0 +1,16 @@
+<div class="page-header">
+     
+
+<form  style="margin-top:30px;" >
+     <h2>Edit</h2>
+      
+        <div class="form-group">
+          <input type="text"    class="form-control"    placeholder="Title"  ng-model="post.title" id ="title"> </input>
+        </div>
+        <div class ="form-group">
+          <textarea type="text" rows="17"  class="form-control"   placeholder="Body"   ng-model="post.body" > </textarea>
+        </div>
+
+        <button ng-click="updatePost()" id="update" 1type="submit" class="btn btn-primary btn-block">Update</button>
+      </form>
+  

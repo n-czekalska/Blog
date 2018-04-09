@@ -1,0 +1,89 @@
+html
+{ height: 100%;
+}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+ .navbar.main{
+  background:	transparent;
+ }
+ .collapse.navbar-collapse li a{
+    color:	black;
+    font-weight: bold;
+  
+  }
+body {
+  background: url(6707.jpg) no-repeat ; 
+  background-size: 100%;
+	color: #444343;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+  overflow-x: hidden;
+}
+
+h2{
+  text-align: center;
+  color: #2B303A
+}
+h3{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0 0 8px 0;
+ 
+}
+h4{
+  line-height: 1.6;
+}
+.wrapper{
+  margin:10px auto;
+  background: #fff;
+  width: 80%;
+  border-radius: 5px;
+  max-width: 800px;
+  min-width: 300px;
+  min-height: 50px;
+  padding: 10px;
+  box-shadow: 5px 10px 12px #949596;
+}
+#ink{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a, a:hover
+{ outline: none;
+  text-decoration: none;
+ 
+}
+
+a:hover
+{ text-decoration: underline;}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #fff;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#submit, #update, #register, #login {
+  background: #b1afaf;
+  border:#b1afaf;
+  font-size: 1.3em;
+  
+}
+#flaticon {
+  font-size: small;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
